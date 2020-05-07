@@ -1,0 +1,147 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    scroll-behavior: smooth;
+}
+/* #############################################################################################
+###################################       HEADER          ######################################
+############################################################################################# */
+
+header {
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+    display: inline-flex;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    
+
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+ ul {
+     margin-left: 780px;
+    display: flex;
+    list-style: none;
+    
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: underline;
+    color: seashell;
+    
+}
+
+/* #############################################################################################
+###################################       MISSION         ######################################
+############################################################################################# */
+
+.Mission {
+    margin: 69px auto;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    background-image: url(./img/img-mission-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Missionheadline {
+    background-color: black;
+    width: 100%;
+}
+
+/* #############################################################################################
+###################################       Featured Tea      ######################################
+############################################################################################# */
+
+
+
+#FeaturedTea {
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+}
+
+.FeaturedTeaImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#FeaturedTea img {
+    height: 200px;
+    width: 300px;
+}
+
+#FeaturesTea p {
+    margin: 10;
+    padding: 0;
+    text-align: center;
+}
+
+/* #############################################################################################
+###################################     LOCATION      ######################################
+############################################################################################# */
+
+#Location {
+    height: 500px;
+    width: 1200px;
+    padding-top: 70px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(./img/img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#Location .LocationContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    line-height: 2.3;
+}
+
+.LocationContent div {
+    display: block;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 15px 20px;
+}
+
+/* #############################################################################################
+###################################       FOOTER         ######################################
+############################################################################################# */
+
+footer .contact {
+    padding: 0;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+}
+
+footer .copyright {
+    margin-left: 20px;
+    text-align: left;
+}
